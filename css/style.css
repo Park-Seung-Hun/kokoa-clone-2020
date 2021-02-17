@@ -26,7 +26,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 .index__body {
-  background-color: whitesmoke;
+  height: 830px;
+  background-color: black;
+  background-image: url("../images/index.gif");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
 }
 .friends__body {
   background-color: white;

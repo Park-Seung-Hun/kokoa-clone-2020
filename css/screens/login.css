@@ -39,19 +39,14 @@
   border-color: var(--yellow);
 }
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: #333136;
   cursor: pointer;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 #login-form a {
   text-align: center;
   text-decoration: none;
   color: inherit;
   font-size: 13px;
-}
-
-.background--dog {
-  padding-top: 100px;
-  display: flex;
 }

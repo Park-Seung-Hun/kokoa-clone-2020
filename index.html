@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Welcome to Kokoa Talk</title>
+    <title>Welcome to Hogwarts</title>
   </head>
   <body class="index__body">
-    <div class="status-bar">
+    
+    <div class="status-bar ">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
+      <div class="status-bar__column js-clock">
+        <span>00:00</span>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -23,24 +24,24 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcom to MungTalk</h1>
+      <h1 class="welcome-header__title">Welcom to Hogwarts</h1>
       <p class="welcome-header__text">
-        If you have a Mung Account, log in with your email or phone number.
+        If you have a Hogwarts Account, log in with your email or phone number.
       </p>
     </header>
     <form id="login-form" action="friends.html" method="get">
       <input name="username" type="text" placeholder="Email or phone number" />
       <input name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log in" />
-      <a href="#">Find Kokoa Account or Password</a>
+      <a href="#">Find Hogwarts Account or Password</a>
     </form>
-    <div class="background--dog">
-      <!--꾸며도됨-->
+   
     </div>
     <div id="no-mobile"><span>Your screen is too big</span></div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/clock.js"></script>
   </body>
 </html>
