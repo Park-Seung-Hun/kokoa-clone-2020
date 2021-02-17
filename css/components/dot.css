@@ -1,0 +1,12 @@
+.dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
+
+.header__dot {
+  position: absolute;
+  right: 19px;
+  top: 40px;
+}
