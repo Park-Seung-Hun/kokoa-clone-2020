@@ -25,7 +25,7 @@ function changeColor(event){
         loginForm.setAttribute("action","friends.html");
     }
     else{
-        login.style.background="linear-gradient(to top, #E9F3F9,#CDE2EF, #6DD5FA)";
+        login.style.background="#CDE2EF";
     }
     localStorage.setItem(bg_user,target);
 }

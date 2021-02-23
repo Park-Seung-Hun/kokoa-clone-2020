@@ -26,8 +26,8 @@ body {
   
 }
 .index__body{
-  background: linear-gradient(to top, #E9F3F9,#CDE2EF, #6DD5FA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #CDE2EF; 
+  transition: background 2s;
   height: 920px;
   overflow: hidden;
 }
