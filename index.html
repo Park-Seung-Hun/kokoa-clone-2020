@@ -31,7 +31,16 @@
     </header>
     <form id="login-form" action="friends.html" method="get">
       <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
+      <div>
+        <input name="password" type="password" placeholder="Password" />
+        <select name="dormitory" id="dormitorySelect">
+          <option value="">Choose an option</option>
+          <option value="Gryffindor">Gryffindor</option>
+          <option value="Slytherin">Slytherin</option>
+          <option value="Ravenclaw">Ravenclaw</option>
+          <option value="Hufflepuff">Hufflepuff</option>
+        </select>
+      </div>
       <input type="submit" value="Log in" />
       <a href="#">Find Hogwarts Account or Password</a>
     </form>
