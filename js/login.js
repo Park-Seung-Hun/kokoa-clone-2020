@@ -9,23 +9,23 @@ function changeColor(event){
     const target=event.target.value;
 
     if(target === "Spring"){
-        selectBox.style.color = "#a80000";
+        login.style.background ="#A6AF6C";
         loginForm.setAttribute("action","friends.html");
     }
     else if(target === "Summer"){
-        selectBox.style.color = "#005416";
+        login.style.background = "#2196f3";
         loginForm.setAttribute("action","friends.html");
     }
     else if(target ==="Fall"){
-        selectBox.style.color = "#004e7f";
+        login.style.background = "#723424";
         loginForm.setAttribute("action","friends.html");
     }
     else if(target ==="Winter"){
-        selectBox.style.color = "#f7c202";
+        login.style.background = "#708098";
         loginForm.setAttribute("action","friends.html");
     }
     else{
-        selectBox.style.color = "white";
+        login.style.background="linear-gradient(to top, #E9F3F9,#CDE2EF, #6DD5FA)";
     }
     localStorage.setItem(bg_user,target);
 }
