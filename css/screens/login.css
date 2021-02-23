@@ -27,7 +27,7 @@
 #login-form div select {
   border: none;
   outline: none;
-  font-weight: 200;
+  font-weight: 600;
   background-color:transparent;
   color: white;
 }
@@ -52,14 +52,12 @@
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   background-color: transparent;
-  color:white;
 }
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0, 0.4);
 }
 #login-form input[type="submit"] {
   background-color: #333136;
-  color: white;
   cursor: pointer;
   padding: 15px;
   border-radius: 20px;
