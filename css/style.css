@@ -22,16 +22,8 @@
 @import "screens/chat.css";
 
 body {
-  color: #2e363e;
   font-family: "Open Sans", sans-serif;
-}
-.index__body {
-  height: 830px;
-  background-color: black;
-}
-
-.friends__body {
-  background-color: white;
+  color: #2e363e;
 }
 .main-screen {
   padding: var(--horizontal-space);

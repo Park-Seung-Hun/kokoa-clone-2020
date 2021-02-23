@@ -1,30 +1,33 @@
 const login=document.querySelector(".index__body"),
-    selectBox=login.querySelector("#dormitorySelect"),
+    selectBox=login.querySelector("#seasonSelect"),
     selectOption=selectBox.querySelectorAll("option"),
     loginForm=document.querySelector("#login-form");
+
+const bg_user="bg_user";
 
 function changeColor(event){
     const target=event.target.value;
 
-    if(target === "Gryffindor"){
+    if(target === "Spring"){
         selectBox.style.color = "#a80000";
-        loginForm.setAttribute("action","dormitory/G.html");
+        loginForm.setAttribute("action","friends.html");
     }
-    else if(target === "Slytherin"){
+    else if(target === "Summer"){
         selectBox.style.color = "#005416";
-        loginForm.setAttribute("action","dormitory/S.html");
+        loginForm.setAttribute("action","friends.html");
     }
-    else if(target ==="Ravenclaw"){
+    else if(target ==="Fall"){
         selectBox.style.color = "#004e7f";
-        loginForm.setAttribute("action","dormitory/R.html");
+        loginForm.setAttribute("action","friends.html");
     }
-    else if(target ==="Hufflepuff"){
+    else if(target ==="Winter"){
         selectBox.style.color = "#f7c202";
-        loginForm.setAttribute("action","dormitory/H.html");
+        loginForm.setAttribute("action","friends.html");
     }
     else{
         selectBox.style.color = "white";
     }
+    localStorage.setItem(bg_user,target);
 }
 
 function init(){
