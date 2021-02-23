@@ -12,7 +12,6 @@
 }
 .friend-screen__user {
   height: 500px;
-  overflow: scroll;
 }
 .friend-screen__user,
 .friends-screen {
@@ -44,9 +43,7 @@
     visibility: hidden;
   }
 }
-
-#splash-screen {
-  background-color: var(--yellow);
+#splash-screen{
   position: absolute;
   top: 0;
   height: 100vh;
@@ -57,4 +54,20 @@
   font-size: 128px;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 2s;
+}
+.splash-screen__spring{
+  background-color: #EEEEDF;
+  color: #A6AF6C;
+}
+.splash-screen__summer{
+  background-color: #2196f3;
+  color: #fff;
+}
+.splash-screen__fall{
+  background-color: #F1F0E8;
+  color: #723424;
+}
+.splash-screen__winter{
+  background-color: #708098;
+  color: #DCE3EF;
 }
