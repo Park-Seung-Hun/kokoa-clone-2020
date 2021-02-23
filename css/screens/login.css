@@ -21,7 +21,28 @@
   flex-direction: column;
   margin: 0px 30px;
 }
-
+#login-form div input{
+  width:63%;
+}
+#login-form div select {
+  border: none;
+  outline: none;
+  font-weight: 200;
+  background-color:transparent;
+  color: white;
+}
+#login-form div select #dormitory__G{
+  color:red;
+}
+#login-form div select #dormitory__S{
+  color:green;
+}
+#login-form div select #dormitory__R{
+  color:yellow;
+}
+#login-form div select #dormitory__H{
+  color:pink;
+}
 #login-form input {
   padding: 15px 0px;
   border: none;
@@ -46,7 +67,6 @@
 #login-form a {
   text-align: center;
   text-decoration: none;
-  
   font-size: 13px;
 }
 .index__status,

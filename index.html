@@ -30,15 +30,15 @@
       </p>
     </header>
     <form id="login-form" action="friends.html" method="get">
-      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="username" type="text" placeholder="Email or phone number" required/>
       <div>
-        <input name="password" type="password" placeholder="Password" />
-        <select name="dormitory" id="dormitorySelect">
-          <option value="">Choose an option</option>
-          <option value="Gryffindor">Gryffindor</option>
-          <option value="Slytherin">Slytherin</option>
-          <option value="Ravenclaw">Ravenclaw</option>
-          <option value="Hufflepuff">Hufflepuff</option>
+        <input name="password" type="password" placeholder="Password" required/>
+        <select name="dormitory" id="dormitorySelect" required>
+          <option value="" selected>Choose an dormitory</option>
+          <option value="Gryffindor" id="dormitory__G">Gryffindor</option>
+          <option value="Slytherin" id="dormitory__S">Slytherin</option>
+          <option value="Ravenclaw" id="dormitory__R">Ravenclaw</option>
+          <option value="Hufflepuff" id="dormitory__H">Hufflepuff</option>
         </select>
       </div>
       <input type="submit" value="Log in" />
@@ -51,6 +51,7 @@
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/login.js"></script>
     <script src="js/clock.js"></script>
   </body>
 </html>
