@@ -23,11 +23,12 @@
   
 }
 #login-form div input{
-  width:63%;
+  width:55%;
 }
 #login-form div select {
   border: none;
   outline: none;
+  width:35%;
   font-weight: 600;
   background-color: transparent;
 }
