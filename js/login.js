@@ -32,6 +32,8 @@ function changeColor(event){
 
 function init(){
     localStorage.setItem(bg_user,"");
+    noMobile.style.background = "#CDE2EF";
+    noMobileImg.setAttribute("src","css/screens/image/wait.png");
     selectBox.addEventListener("change",changeColor);
 }
 

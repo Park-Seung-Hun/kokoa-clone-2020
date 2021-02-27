@@ -31,7 +31,7 @@
   margin-bottom: 10px;
 }
 .more-suggestions__icon-noimage {
-  background-color: white;
+  background-color: transparent;
 }
 .more-suggestions__icon-image i {
   font-size: 32px;
