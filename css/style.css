@@ -22,14 +22,12 @@
 @import "screens/chat.css";
 
 body {
-  font-family: "Open Sans", sans-serif;
-  
+  font-family: "Open Sans", sans-serif; 
 }
 .index__body{
   background: #CDE2EF; 
   transition: background 2s;
   height: 920px;
-  overflow: hidden;
 }
 .main-screen {
   padding: var(--horizontal-space);
