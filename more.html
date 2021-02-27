@@ -87,10 +87,12 @@
             <span class="more-suggestion__icon-text">KoKoa Story</span>
           </div>
           <div class="more-suggestions__icon">
-            <div class="more-suggestions__icon-image">
-              <i class="fas fa-quote-right"></i>
+            <div
+              class="more-suggestions__icon-image more-suggestions__icon-noimage"
+            >
+              <i></i>
             </div>
-            <span class="more-suggestion__icon-text">KoKoa Story</span>
+            <span class="more-suggestion__icon-text"></span>
           </div>
           <div class="more-suggestions__icon">
             <div
@@ -139,12 +141,16 @@
       </ul>
     </nav>
 
-    <div id="no-mobile"><span>Your screen is too big</span></div>
-    <script
-      src="https://kit.fontawesome.com/6478f529f2.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/bg.js"></script>
+    <div id="no-mobile" class="no-mobileScreen">
+      <img src="css/screens/image/wait.png" alt="" width="10%">
+      <span>Your screen is too big</span>
+    </div>
+    <script src="js/nomobile.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/bg.js"></script>
+     <script
+    src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>

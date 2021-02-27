@@ -30,43 +30,42 @@
   outline: none;
   font-weight: 600;
   background-color: transparent;
-  color: white;
 }
-#login-form div select option{
-  background-color: transparent;
-  color: rgba(0, 0, 0, 0.2);
-}
-
-
 #login-form input {
   padding: 15px 0px;
   border: none;
   font-size: 18px;
   margin-bottom: 25px;
-  color:white;
 }
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   background-color: transparent;
 }
 #login-form input::placeholder {
-  color: rgba(255, 255, 255,0.3);
+  color: rgba(0, 0, 0,0.3);
 }
 #login-form input[type="submit"] {
   background-color: transparent;
   cursor: pointer;
   padding: 15px;
   border-radius: 20px;
-  box-shadow: 0 1.5px 4px 0 white ;
+  box-shadow: 0 1px 4px 0 black;
 }
+#login-form input[type="submit"]:hover{
+  
+  box-shadow: 1px 2px 5px 0 black;
+  transition-timing-function: box-shadow 1s ease-in-out;
+}
+
 #login-form a {
   text-align: center;
   text-decoration: none;
   font-size: 13px;
 }
-.index__status,
+
 .welcome-header,
 #login-form input[type="submit"],
 #login-form a{
-  color:white;
+  color:black;
+  font-weight: 600;
 }

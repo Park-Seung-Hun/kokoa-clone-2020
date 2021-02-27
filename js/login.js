@@ -10,7 +10,7 @@ function changeColor(event){
 
     if(target === "Spring"){
         login.style.background ="#A6AF6C";
-        loginForm.setAttribute("action","friends.html");
+        loginForm.setAttribute("action","friends.html");   
     }
     else if(target === "Summer"){
         login.style.background = "#2196f3";
@@ -31,6 +31,9 @@ function changeColor(event){
 }
 
 function init(){
+    localStorage.setItem(bg_user,"");
+    noMobile.style.background = "#CDE2EF";
+    noMobileImg.setAttribute("src","css/screens/image/wait.png");
     selectBox.addEventListener("change",changeColor);
 }
 
