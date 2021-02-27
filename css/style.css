@@ -23,12 +23,13 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  
+  overflow: hidden;
+  touch-action: none;
+  height: 100%;
 }
 .index__body{
   background: #CDE2EF; 
   transition: background 2s;
-  overflow: hidden;
 }
 .main-screen {
   padding: var(--horizontal-space);
