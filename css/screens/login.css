@@ -31,12 +31,6 @@
   font-weight: 600;
   background-color: transparent;
 }
-#login-form div select option{
-  background-color: transparent;
-  color: rgba(0, 0, 0, 0.2);
-}
-
-
 #login-form input {
   padding: 15px 0px;
   border: none;
@@ -59,7 +53,7 @@
 }
 #login-form input[type="submit"]:hover{
   
-  box-shadow: 0 1.5px 5px 0 black;
+  box-shadow: 1px 2px 5px 0 black;
   transition-timing-function: box-shadow 1s ease-in-out;
 }
 

@@ -7,8 +7,27 @@
   background-color: #CDE2EF;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   font-size: 32px;
+}
+#no-mobile img{
+  position:relative;
+  animation: roadImg 4s linear infinite;
+}
+@keyframes roadImg{
+  0%{
+    left: -200px;
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    left: 200px;
+    opacity: 0;
+  }
+
 }
 #chat-screen #no-mobile {
   height: 100%;
