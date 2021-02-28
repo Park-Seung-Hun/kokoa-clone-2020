@@ -8,12 +8,10 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  background-color: #abc1d1;
   z-index: 1;
   top: 10px;
 }
 #chat-screen .status-bar {
-  background-color: #abc1d1;
   z-index: 2;
 }
 @keyframes fadeIn {
