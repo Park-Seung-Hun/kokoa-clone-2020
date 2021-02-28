@@ -1,17 +1,16 @@
 .chat__timestamp_spring{
     background-color: thistle;
 }
-.spring__chat{
-    width: 100%;
+.spring-html{
+    background-color: #a1bac1;
 }
  #blossom_container {
     background-color: transparent;
     z-index: -20;
     position: absolute;
-    top:0;
-    width: 100%;
+    width: calc(100% - 40px);
     height: 100%;
-    background-color: #a1bac1;
+   
 }
 .petal {
     background: url(http://talktofill.surge.sh/cherry-blossom.png) no-repeat;

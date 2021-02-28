@@ -36,13 +36,13 @@
 #snow-top-layer {
 	will-change: transform;
 	transform: translateY(-768px);
-	animation: fall 22.5s infinite linear;
+	animation: fall 12s infinite linear;
 }
 
 #snow-bottom-layer {
 	will-change: transform;
 	transform: translateY(-768px);
-	animation: fall 45s infinite linear;
+	animation: fall 30s infinite linear;
 }
 
 @keyframes fall {
