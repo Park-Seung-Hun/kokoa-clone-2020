@@ -1,3 +1,11 @@
+.more_html {
+  overflow: auto;
+  -ms-overflow-style: none;
+}
+.more_html::-webkit-scrollbar {
+  display: none;
+}
+
 .more-screen .icon-row {
   margin-top: 40px;
 }
