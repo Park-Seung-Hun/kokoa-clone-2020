@@ -1,7 +1,5 @@
-
-
 <!DOCTYPE html>
-<html lang="en"  class="fall_html">
+<html lang="en" class="fall_html">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,70 +7,66 @@
     <title>Chat - Kokoa Talk</title>
   </head>
   <body id="chat-screen" class="fall__chat">
+    <!--메세지를 fadein 해보기-->
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp chat__timestamp_fall">
+        Tuesday, Jun 30, 2021
+      </div>
 
-            <!--메세지를 fadein 해보기-->
-            <main class="main-screen main-chat">
-        
-                <div class="chat__timestamp chat__timestamp_fall">Tuesday, Jun 30, 2021</div>
-          
-                <div class="message-row">
-                  <img src="css/screens/image/navi1.jpg" />
-                  <div class="message-row__content">
-                    <span class="message__author">Navi</span>
-                    <div class="message__info">
-                      <span class="message__bubble">Hi!</span
-                      ><span class="message__time">21:22</span>
-                    </div>
-                  </div>
-                </div>
-          
-                <div class="message-row message-row--own">
-                  <div class="message-row__content">
-                    <div class="message__info">
-                      <span class="message__bubble">Hi! Nice to meet you</span
-                      ><span class="message__time">21:27</span>
-                    </div>
-                  </div>
-                </div>
-          
-                <div class="message-row">
-                  <img src="css/screens/image/navi1.jpg" />
-                  <div class="message-row__content">
-                    <span class="message__author">Navi</span>
-                    <div class="message__info">
-                      <span class="message__bubble">Where are you now?
-                        </span
-                      ><span class="message__time">21:30</span>
-                    </div>
-                  </div>
-                </div>
-          
-                <div class="message-row">
-                  <img src="css/screens/image/navi1.jpg" />
-                  <div class="message-row__content">
-                    <span class="message__author">Navi</span>
-                    <div class="message__info">
-                      <span class="message__bubble">I'm hungry!</span
-                      ><span class="message__time">21:31</span>
-                    </div>
-                  </div>
-                </div>
-                <section>
-                    <div class="set">
-                        <div><img src="css/screens/image/leaves1.png" width="20%"></div>
-                        <div><img src="css/screens/image/leaves2.png" width="20%"></div>
-                        <div><img src="css/screens/image/leaves3.png" width="20%"></div>
-                        <div><img src="css/screens/image/leaves4.png" width="20%"></div>
-                        <div><img src="css/screens/image/leaves1.png" width="20%"></div>
-                        <div><img src="css/screens/image/leaves2.png" width="20%"></div>
-                        <div><img src="css/screens/image/leaves3.png" width="20%"></div>
-                        <div><img src="css/screens/image/leaves4.png" width="20%"></div>
-                    </div>
-                    
-                </section>
-            
-              </main>    
+      <div class="message-row">
+        <img src="css/screens/image/navi1.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Navi</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span
+            ><span class="message__time">21:22</span>
+          </div>
+        </div>
+      </div>
 
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi! Nice to meet you</span
+            ><span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="css/screens/image/navi1.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Navi</span>
+          <div class="message__info">
+            <span class="message__bubble">Where are you now? </span
+            ><span class="message__time">21:30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="css/screens/image/navi1.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Navi</span>
+          <div class="message__info">
+            <span class="message__bubble">I'm hungry!</span
+            ><span class="message__time">21:31</span>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="set">
+          <div><img src="css/screens/image/leaves1.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves2.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves3.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves4.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves1.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves2.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves3.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves4.png" width="20%" /></div>
+        </div>
+      </section>
+    </main>
 
     <div class="status-bar">
       <div class="status-bar__column">
@@ -102,8 +96,6 @@
       </div>
     </header>
 
-
-
     <form class="reply">
       <div class="reply__column"><i class="far fa-plus-square fa-lg"></i></div>
       <div class="reply__column">
@@ -113,16 +105,15 @@
       </div>
     </form>
 
-
     <div id="no-mobile" class="no-mobileScreen">
-      <img src="css/screens/image/wait.png" alt="" width="10%">
+      <img src="css/screens/image/wait.png" alt="" width="10%" />
       <span>Your screen is too big</span>
     </div>
     <script src="js/nomobile.js"></script>
     <script src="js/clock.js"></script>
-     <script
-    src="https://kit.fontawesome.com/6478f529f2.js"
-    crossorigin="anonymous"
-  ></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

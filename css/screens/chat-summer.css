@@ -1,12 +1,12 @@
 #chat-screen .alt-header,
 #chat-screen,
-#chat-screen .status-bar{
+#chat-screen .status-bar {
   background: transparent;
 }
-.chat__timestamp_summer{
+.chat__timestamp_summer {
   background-color: #accbee;
 }
-.summer__chat .chat__timestamp{
+.summer__chat .chat__timestamp {
   background-color: #2196f3;
 }
 .wrapper {
@@ -32,11 +32,15 @@
   margin-left: -500px;
   margin-top: -500px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, .75);
+  background: rgba(255, 255, 255, 0.75);
   animation: wave 15s infinite linear;
 }
 
 @keyframes wave {
-  from { transform: rotate(0deg);}
-  from { transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
 }

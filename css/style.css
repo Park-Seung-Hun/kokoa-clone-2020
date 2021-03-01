@@ -30,8 +30,8 @@ body {
   overflow: hidden;
   touch-action: none;
 }
-.index__body{
-  background: #CDE2EF; 
+.index__body {
+  background: #cde2ef;
   transition: background 2s;
 }
 .main-screen {
