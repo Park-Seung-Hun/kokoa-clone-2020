@@ -2,7 +2,8 @@
  
 ### 📖 kokoa-clone 
 > 카카오톡의 모바일 버전을 본따 웹 페이지에 간단하게 구현해보았다. <br>
-> [`kokoa clone 결과물`](https://park-seung-hun.github.io/kokoa_clone-2021/)<br>
+
+[`kokoa clone 결과물`](https://park-seung-hun.github.io/kokoa_clone-2021/index.html)<br>
 
 ### ✅ 사용 Skills
   1. HTML
