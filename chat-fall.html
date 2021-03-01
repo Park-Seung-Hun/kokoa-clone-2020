@@ -1,43 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="fall_html">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Chat - Kokoa Talk</title>
   </head>
-  <body id="chat-screen">
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <div class="status-bar__column js-clock">
-        <span>00:00</span>
-      </div>
-      <div class="status-bar__column">
-        <span>100%</span>
-        <i class="fas fa-battery-full fa-lg"></i>
-        <i class="fas fa-bolt"></i>
-      </div>
-    </div>
-
-    <header class="alt-header">
-      <div class="alt-header__column">
-        <a href="chats.html"> <i class="fas fa-angle-left fa-lg"></i></a>
-      </div>
-      <div class="alt-header__column">
-        <h1 class="alt-header__title">Navi</h1>
-      </div>
-      <div class="alt-header__column">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-bars fa-lg"></i></span>
-      </div>
-    </header>
-
+  <body id="chat-screen" class="fall__chat">
     <!--메세지를 fadein 해보기-->
     <main class="main-screen main-chat">
-      <div class="chat__timestamp">Tuesday, Jun 30, 2021</div>
+      <div class="chat__timestamp chat__timestamp_fall">
+        Tuesday, Jun 30, 2021
+      </div>
 
       <div class="message-row">
         <img src="css/screens/image/navi1.jpg" />
@@ -80,7 +54,47 @@
           </div>
         </div>
       </div>
+      <section>
+        <div class="set">
+          <div><img src="css/screens/image/leaves1.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves2.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves3.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves4.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves1.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves2.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves3.png" width="20%" /></div>
+          <div><img src="css/screens/image/leaves4.png" width="20%" /></div>
+        </div>
+      </section>
     </main>
+
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column js-clock">
+        <span>00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fas fa-angle-left fa-lg"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Navi</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
 
     <form class="reply">
       <div class="reply__column"><i class="far fa-plus-square fa-lg"></i></div>

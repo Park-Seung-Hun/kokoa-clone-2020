@@ -20,15 +20,14 @@
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
-  
 }
-#login-form div input{
-  width:55%;
+#login-form div input {
+  width: 55%;
 }
 #login-form div select {
   border: none;
   outline: none;
-  width:40%;
+  width: 40%;
   font-weight: 600;
   background-color: transparent;
 }
@@ -43,7 +42,7 @@
   background-color: transparent;
 }
 #login-form input::placeholder {
-  color: rgba(0, 0, 0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 #login-form input[type="submit"] {
   background-color: transparent;
@@ -52,8 +51,7 @@
   border-radius: 20px;
   box-shadow: 0 1px 4px 0 black;
 }
-#login-form input[type="submit"]:hover{
-  
+#login-form input[type="submit"]:hover {
   box-shadow: 1px 2px 5px 0 black;
   transition-timing-function: box-shadow 1s ease-in-out;
 }
@@ -66,7 +64,7 @@
 
 .welcome-header,
 #login-form input[type="submit"],
-#login-form a{
-  color:black;
+#login-form a {
+  color: black;
   font-weight: 600;
 }
