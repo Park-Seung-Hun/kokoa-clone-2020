@@ -23,6 +23,7 @@
 @import "screens/chat-summer.css";
 @import "screens/chat-winter.css";
 @import "screens/chat-spring.css";
+@import "screens/chat-fall.css";
 
 body {
   font-family: "Open Sans", sans-serif;
