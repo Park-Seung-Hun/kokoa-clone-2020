@@ -79,15 +79,51 @@ function init() {
   setInterval(getTime, 1000); // 1초마다 시간을 받아옴
 }
 init();
-
 ```
+> [clock.js](https://github.com/Park-Seung-Hun/kokoa_clone-2021/blob/main/js/clock.js)
 
 - `@media Query`를 이용해 지정한 화면 크기보다 커지면 Splash Screen 출력
 
+```html
+    <div id="no-mobile" class="no-mobileScreen">
+      <img src="css/screens/image/wait.png" alt="" width="10%" />
+      <span>Your screen is too big</span>
+    </div>
+```
+
+```css
+/* z-index와 아래 @media를 이용해 splash screen출력*/
+#no-mobile {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: #cde2ef;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32px;
+}
+...
+
+
+
+/* @media 를 이용해 가로 645px보다 작을 때 정상 화면 출력*/
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+} ;
+```
+> [nomobile.css](https://github.com/Park-Seung-Hun/kokoa_clone-2021/blob/main/css/components/no-mobile.css)
+
 - `컨셉(4계절)을 선택함에 따라 효과 변하는 기능`을 간단한 JS와 CSS를 통해 구현.
-  1. 배경색 변화 
+  1. 계절에 맞는 배경색 변화 
   2. Splash Screen 변화 (로그인 시 발생하는 효과, 컨셉을 선택하지 않으면 로그인이 안된다.)
   3. Chat Screen 변화 (4계절에 맞는 효과를 채팅방에 구현)
+  - [JS 코드 보러가기](https://github.com/Park-Seung-Hun/kokoa_clone-2021/tree/main/js/changeconcept)
 
 
 
@@ -97,10 +133,16 @@ init();
 
 
 
-
 ### 📘 추가할 기능
  - `달력` 기능 추가 
+   1. 기본 달력틀을 JS와 CSS를 통해 구현한다.
+   2. 달력에 기념일 & 할일 추가 기능을 JS를 통해 구현한다.
 
  - `Music` 기능 추가
+   1. 날씨 or 계절에 맞는 음악 추천
+   2. 앨범 표지 회전 효과
 
 ### 📙 출처
+[노마드 코더](https://nomadcoders.co/)<br>
+
+봄,겨울 특수효과: [code pen](https://codepen.io/)
