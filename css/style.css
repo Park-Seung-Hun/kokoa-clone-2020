@@ -19,11 +19,13 @@
 @import "screens/search.css";
 @import "screens/more.css";
 @import "screens/settings.css";
-@import "screens/chat.css";
-@import "screens/chat-summer.css";
-@import "screens/chat-winter.css";
-@import "screens/chat-spring.css";
-@import "screens/chat-fall.css";
+
+/* chat effect */
+@import "screens/chat/chat.css";
+@import "screens/chat/chat-summer.css";
+@import "screens/chat/chat-winter.css";
+@import "screens/chat/chat-spring.css";
+@import "screens/chat/chat-fall.css";
 
 body {
   font-family: "Open Sans", sans-serif;
