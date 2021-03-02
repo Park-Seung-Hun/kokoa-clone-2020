@@ -123,7 +123,7 @@ init();
   1. 계절에 맞는 배경색 변화 
   2. Splash Screen 변화 (로그인 시 발생하는 효과, 컨셉을 선택하지 않으면 로그인이 안된다.)
   3. Chat Screen 변화 (4계절에 맞는 효과를 채팅방에 구현)
-  - [JS 코드 보러가기](https://github.com/Park-Seung-Hun/kokoa_clone-2021/tree/main/js/changeconcept)
+     - [JS 코드 보러가기](https://github.com/Park-Seung-Hun/kokoa_clone-2021/tree/main/js/changeconcept)
 
 
 
