@@ -127,11 +127,13 @@ init();
 
 
 
-컨셉 없음            |봄 컨셉            |  여름 컨셉            |가을 컨셉            |  겨울 컨셉            |
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://github.com/Park-Seung-Hun/kokoa_clone-2021/blob/main/resultImage/noconcept.gif" height="450">  |<img src="https://github.com/Park-Seung-Hun/kokoa_clone-2021/blob/main/resultImage/spring.gif" height="450">  |  <img src="https://github.com/Park-Seung-Hun/kokoa_clone-2021/blob/main/resultImage/summer.gif" height="450">  |  <img src="https://github.com/Park-Seung-Hun/kokoa_clone-2021/blob/main/resultImage/fall.gif" height="450">  |  <img src="https://github.com/Park-Seung-Hun/kokoa_clone-2021/blob/main/resultImage/winter.gif" height="450">
+컨셉 없음            |봄 컨셉            |  여름 컨셉            |
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/Park-Seung-Hun/kokoa_clone-2021/blob/main/resultImage/noconcept.gif" height="450" width="200">  |<img src="https://github.com/Park-Seung-Hun/kokoa_clone-2021/blob/main/resultImage/spring.gif" height="450" width="200">  |  <img src="https://github.com/Park-Seung-Hun/kokoa_clone-2021/blob/main/resultImage/summer.gif" height="450" width="200"> 
 
-
+가을 컨셉            |  겨울 컨셉            |
+:-------------------------:|:-------------------------:
+<img src="https://github.com/Park-Seung-Hun/kokoa_clone-2021/blob/main/resultImage/fall.gif" height="450" width="200">  |  <img src="https://github.com/Park-Seung-Hun/kokoa_clone-2021/blob/main/resultImage/winter.gif" height="450" width="200">
 
 ### 📘 추가할 기능
  - `달력` 기능 추가 
